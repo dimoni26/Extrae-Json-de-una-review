@@ -8,18 +8,18 @@ For the following text, extract the following \
 information:
 
 sentiment: Is the customer happy with the product? 
-Answer Positive if yes, Negative if \
-not, Neutral if either of them, or Unknown if unknown.
+Answer Positivo if yes, Negativo if \
+not, Neutral if either of them, or Desconocido if unknown.
 
 delivery_days: How many days did it take \
 for the product to arrive? If this \
-information is not found, output No information about this.
+information is not found, output No hay información sobre esto.
 
 price_perception: How does it feel the customer about the price? 
-Answer Expensive if the customer feels the product is expensive, 
-Cheap if the customer feels the product is cheap,
-not, Neutral if either of them, or Unknown if unknown.
-
+Answer Caro if the customer feels the product is expensive, 
+Barato if the customer feels the product is cheap,
+not, Normal if either of them, or Desconocido if unknown.
+respond in Spanish always.
 Format the output as bullet-points text with the \
 following keys:
 - Sentimiento
