@@ -22,17 +22,17 @@ not, Neutral if either of them, or Unknown if unknown.
 
 Format the output as bullet-points text with the \
 following keys:
-- Sentiment
-- How long took it to deliver?
-- How was the price perceived?
+- Sentimiento
+- ¿Cuánto tiempo tardó en entregarse?
+- ¿Cómo se percibió el precio?
 
 Input example:
 This dress is pretty amazing. It arrived in two days, just in time for my wife's anniversary present. It is cheaper than the other dresses out there, but I think it is worth it for the extra features.
 
 Output example:
-- Sentiment: Positive
-- How long took it to deliver? 2 days
-- How was the price perceived? Cheap
+- Sentimiento: Positivo
+- ¿Cuánto tiempo tardó en entregarse? 2 días
+- ¿Cómo se percibió el precio? Barato
 
 text: {review}
 """
